@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Corp Uman - Anatomie Interactivă</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body style="background-color: aqua;">
+    <header>
+        <h1 style="text-align: center; font-size:xx-large;">Descoperă Corpul Uman</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2 style="text-align: center; font-size: large;">Exploră organele corpului uman</h2>
+            <p style="text-align: center; font-size: larger;">Fă clic pe orice organ pentru a afla mai multe informații.</p>
+        </section>
+
+        <!-- Interactive Human Body Image -->
+        <section class="body">
+            <img src="noulcorpuman.jpg" alt="Corp Uman" usemap="#body-map" >
+            <map name="body-map">
+                <area target="" alt="Inima" title="Inima" href="https://ro.wikipedia.org/wiki/Inim%C4%83" coords="465,495,574,623" shape="rect">
+                <area target="" alt="inimascris" title="inimascris" href="heart.html" coords="766,557,765,594,844,594,844,557" shape="poly">
+                <!-- Add more areas for other organs -->
+            </map>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Corpul Uman</p>
+    </footer>
+</body>
+</html>
